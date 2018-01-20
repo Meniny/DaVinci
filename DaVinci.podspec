@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DaVinci'
   s.version          = "1.0.0"
-  s.summary          = "A functional, descriptive, and more modern CoreGraphics wrapper for iOS/OS X"
+  s.summary          = "More modern CoreGraphics wrapper for iOS/OS X"
   s.homepage         = "https://github.com/Meniny/DaVinci"
   s.license          = { :type => "MIT", :file => "LICENSE.md" }
   s.author           = 'Elias Abel'
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.10"
-  s.description  = "DaVinci is a functional, descriptive, and more modern CoreGraphics wrapper for iOS/macOS"
+  s.description  = "DaVinci is a more modern CoreGraphics wrapper for iOS/macOS"
   s.module_name = 'DaVinci'
 end

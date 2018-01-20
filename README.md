@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./Assets/DaVinci.png" alt="DaVinci">
+  <img src="./Assets/DaVinci.png" alt="DaVinci" style="width: 100px;">
   <br/><a href="https://cocoapods.org/pods/DaVinci">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
@@ -20,9 +20,7 @@
 
 ## What's this?
 
-`DaVinci` is a functional, descriptive, and more modern CoreGraphics wrapper for iOS/OS X.
-
-![preview.jpg](./Assets/preview.jpg)
+`DaVinci` is a more modern CoreGraphics wrapper for iOS/OS X.
 
 ## Requirements
 
