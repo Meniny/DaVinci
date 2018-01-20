@@ -23,7 +23,7 @@ public enum ArrowDirection {
 public extension ImageType {
     public class func arrow(_ direction: ArrowDirection, square: CGFloat, color: CGColor, background: CGColor? = nil) -> ImageType {
         let rect = CGRect.init(x: 0, y: 0, width: square, height: square)
-        return ImageType.render(rect.size, transparency: background == nil, prefersExtendedRange: nil) { _ in
+        return ImageType.render(rect.size, transparency: background == nil) { _ in
             
             let context = CGContext.current
             
