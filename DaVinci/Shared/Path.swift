@@ -19,6 +19,15 @@ public struct DaVinciPath {
         currentPoint = point
         actions = [.move(point)]
     }
+    
+    public static func rectangle(_ rect: CGRect) -> DaVinciPath {
+        let path = DaVinciPath.init(point: rect.origin)
+            .addLine(to: rect.topRightPoint)
+            .addLine(to: rect.bottomRightPoint)
+            .addLine(to: rect.bottomLeftPoint)
+            .close()
+        return path
+    }
 }
 
 public extension DaVinciPath {
@@ -78,6 +87,26 @@ public extension DaVinciPath {
         default:
             return self.flipVertically(by: axis)
         }
+    }
+}
+
+public extension DaVinciPath {
+    /// Concatenate two paths together.
+    ///
+    /// - parameter rhp: Right hand path.
+    ///
+    /// - returns: A new path.
+    public func concat(with rhp: DaVinciPath) -> DaVinciPath {
+        return self + rhp
+    }
+    
+    /// Concatenate two paths together.
+    ///
+    /// - parameter lhp: Left hand path.
+    ///
+    /// - returns: A new path.
+    public func concat(to lhp: DaVinciPath) -> DaVinciPath {
+        return lhp + self
     }
 }
 

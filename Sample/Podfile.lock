@@ -1,5 +1,5 @@
 PODS:
-  - DaVinci (1.0.0)
+  - DaVinci (1.0.1)
 
 DEPENDENCIES:
   - DaVinci (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DaVinci: 7075745351bfab98f7a244103ea445954218b8b1
+  DaVinci: 053cb8432392a1600bd93f82a483f6229364e465
 
 PODFILE CHECKSUM: b412ec5d712ccb5cbde020d06f93b6eadb4e300b
 

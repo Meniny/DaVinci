@@ -49,7 +49,7 @@
 		5C8191802013501C005311C3 /* DaVinci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DaVinci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C819181201350CD005311C3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		5C819182201350CE005311C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5C819183201350CE005311C3 /* DaVinci.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = DaVinci.podspec; path = ../DaVinci.podspec; sourceTree = "<group>"; };
+		5C819183201350CE005311C3 /* DaVinci.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = DaVinci.podspec; path = ../DaVinci.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C819184201352FE005311C3 /* DaVinciDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaVinciDraw.swift; sourceTree = "<group>"; };
 		5C81918720135387005311C3 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		5C819189201353C5005311C3 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };

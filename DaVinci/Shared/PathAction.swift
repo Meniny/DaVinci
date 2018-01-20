@@ -40,5 +40,19 @@ extension DaVinciPathAction {
             return .close
         }
     }
+    
+    /// Flips an action horizontally/vertically along an axis with a given X/Y value.
+    ///
+    /// - parameter axis: The X/Y coordinate of the symmetry axis.
+    ///
+    /// - returns: A new action flipped horizontally/vertically alongside the given X/Y axis.
+    func flip(_ type: FlipType, by axis: CGFloat) -> DaVinciPathAction {
+        switch type {
+        case .horizontally:
+            return self.flipHorizontally(by: axis)
+        default:
+            return self.flipVertically(by: axis)
+        }
+    }
 }
 

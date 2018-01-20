@@ -1,7 +1,19 @@
 
 import CoreGraphics
+#if os(macOS)
+#else
+    import UIKit
+#endif
 
 public extension CGContext {
+    public static var current: CGContext? {
+        #if os(macOS)
+            return NSGraphicsContext.current?.cgContext
+        #else
+            return UIGraphicsGetCurrentContext()
+        #endif
+    }
+    
     /// Rotates the context by a given angle around a pivot point.
     ///
     /// - parameter pivot: A pivot point in the user space coordinates around which the context will rotate.
