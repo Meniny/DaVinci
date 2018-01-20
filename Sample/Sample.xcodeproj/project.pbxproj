@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49E88AC9049524501B3FB52D /* Pods_DaVinciAll_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFB4599BE023F9CB44CBB14 /* Pods_DaVinciAll_iOS.framework */; };
+		5B0F896374DF8A2C21D4C33A /* Pods_DaVinciAll_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14325361780707500EAF9F32 /* Pods_DaVinciAll_macOS.framework */; };
+		5C81915A20134F6C005311C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81915920134F6C005311C3 /* AppDelegate.swift */; };
+		5C81915C20134F6C005311C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81915B20134F6C005311C3 /* ViewController.swift */; };
+		5C81915F20134F6C005311C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C81915D20134F6C005311C3 /* Main.storyboard */; };
+		5C81916120134F6C005311C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C81916020134F6C005311C3 /* Assets.xcassets */; };
+		5C81916420134F6C005311C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C81916220134F6C005311C3 /* LaunchScreen.storyboard */; };
+		5C81917020134F78005311C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81916F20134F78005311C3 /* AppDelegate.swift */; };
+		5C81917220134F78005311C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81917120134F78005311C3 /* ViewController.swift */; };
+		5C81917420134F78005311C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C81917320134F78005311C3 /* Assets.xcassets */; };
+		5C81917720134F79005311C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C81917520134F79005311C3 /* Main.storyboard */; };
+		5C81917D20135018005311C3 /* DaVinci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C81917E20135018005311C3 /* DaVinci.framework */; };
+		5C81917F2013501C005311C3 /* DaVinci.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8191802013501C005311C3 /* DaVinci.framework */; };
+		5C819185201352FE005311C3 /* DaVinciDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C819184201352FE005311C3 /* DaVinciDraw.swift */; };
+		5C819186201352FE005311C3 /* DaVinciDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C819184201352FE005311C3 /* DaVinciDraw.swift */; };
+		5C81918820135387005311C3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C81918720135387005311C3 /* CustomView.swift */; };
+		5C81918A201353C5005311C3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C819189201353C5005311C3 /* CustomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14325361780707500EAF9F32 /* Pods_DaVinciAll_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaVinciAll_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFB4599BE023F9CB44CBB14 /* Pods_DaVinciAll_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaVinciAll_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC916DEA050D54676733D4A /* Pods-DaVinciAll-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaVinciAll-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaVinciAll-macOS/Pods-DaVinciAll-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		4125FC34C2AEAED18935B316 /* Pods-DaVinciAll-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaVinciAll-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaVinciAll-iOS/Pods-DaVinciAll-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		5C81915720134F6C005311C3 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C81915920134F6C005311C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C81915B20134F6C005311C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C81915E20134F6C005311C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C81916020134F6C005311C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C81916320134F6C005311C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C81916520134F6C005311C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C81916D20134F78005311C3 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C81916F20134F78005311C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C81917120134F78005311C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C81917320134F78005311C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C81917620134F79005311C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C81917820134F79005311C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C81917920134F79005311C3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5C81917E20135018005311C3 /* DaVinci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DaVinci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8191802013501C005311C3 /* DaVinci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DaVinci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C819181201350CD005311C3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		5C819182201350CE005311C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C819183201350CE005311C3 /* DaVinci.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = DaVinci.podspec; path = ../DaVinci.podspec; sourceTree = "<group>"; };
+		5C819184201352FE005311C3 /* DaVinciDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaVinciDraw.swift; sourceTree = "<group>"; };
+		5C81918720135387005311C3 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5C819189201353C5005311C3 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		70D8F31E0CAFA5074693C9F0 /* Pods-DaVinciAll-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaVinciAll-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaVinciAll-iOS/Pods-DaVinciAll-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC66DC4634CAC1107592A86 /* Pods-DaVinciAll-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaVinciAll-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaVinciAll-macOS/Pods-DaVinciAll-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C81915420134F6C005311C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C81917D20135018005311C3 /* DaVinci.framework in Frameworks */,
+				49E88AC9049524501B3FB52D /* Pods_DaVinciAll_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C81916A20134F78005311C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C81917F2013501C005311C3 /* DaVinci.framework in Frameworks */,
+				5B0F896374DF8A2C21D4C33A /* Pods_DaVinciAll_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C81913520134F53005311C3 = {
+			isa = PBXGroup;
+			children = (
+				5C819183201350CE005311C3 /* DaVinci.podspec */,
+				5C819181201350CD005311C3 /* Package.swift */,
+				5C819182201350CE005311C3 /* README.md */,
+				5C819184201352FE005311C3 /* DaVinciDraw.swift */,
+				5C81915820134F6C005311C3 /* iOS */,
+				5C81916E20134F78005311C3 /* macOS */,
+				5C81913F20134F53005311C3 /* Products */,
+				AF162785FA0949DF07A5B825 /* Pods */,
+				EA5C8EC580427E1466329079 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C81913F20134F53005311C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C81915720134F6C005311C3 /* iOS.app */,
+				5C81916D20134F78005311C3 /* macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C81915820134F6C005311C3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C81918720135387005311C3 /* CustomView.swift */,
+				5C81915920134F6C005311C3 /* AppDelegate.swift */,
+				5C81915B20134F6C005311C3 /* ViewController.swift */,
+				5C81915D20134F6C005311C3 /* Main.storyboard */,
+				5C81916020134F6C005311C3 /* Assets.xcassets */,
+				5C81916220134F6C005311C3 /* LaunchScreen.storyboard */,
+				5C81916520134F6C005311C3 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5C81916E20134F78005311C3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5C819189201353C5005311C3 /* CustomView.swift */,
+				5C81916F20134F78005311C3 /* AppDelegate.swift */,
+				5C81917120134F78005311C3 /* ViewController.swift */,
+				5C81917320134F78005311C3 /* Assets.xcassets */,
+				5C81917520134F79005311C3 /* Main.storyboard */,
+				5C81917820134F79005311C3 /* Info.plist */,
+				5C81917920134F79005311C3 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		AF162785FA0949DF07A5B825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70D8F31E0CAFA5074693C9F0 /* Pods-DaVinciAll-iOS.debug.xcconfig */,
+				4125FC34C2AEAED18935B316 /* Pods-DaVinciAll-iOS.release.xcconfig */,
+				EDC66DC4634CAC1107592A86 /* Pods-DaVinciAll-macOS.debug.xcconfig */,
+				2FC916DEA050D54676733D4A /* Pods-DaVinciAll-macOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA5C8EC580427E1466329079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C8191802013501C005311C3 /* DaVinci.framework */,
+				5C81917E20135018005311C3 /* DaVinci.framework */,
+				1BFB4599BE023F9CB44CBB14 /* Pods_DaVinciAll_iOS.framework */,
+				14325361780707500EAF9F32 /* Pods_DaVinciAll_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C81915620134F6C005311C3 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C81916620134F6C005311C3 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				B57A3C77D7A22D4B7A3A5033 /* [CP] Check Pods Manifest.lock */,
+				5C81915320134F6C005311C3 /* Sources */,
+				5C81915420134F6C005311C3 /* Frameworks */,
+				5C81915520134F6C005311C3 /* Resources */,
+				4EF8D13ED35DF375A83425D2 /* [CP] Embed Pods Frameworks */,
+				3EF9903C6CADE880326DA33C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 5C81915720134F6C005311C3 /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C81916C20134F78005311C3 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C81917A20134F79005311C3 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				90F35124AD44A3739CF959F0 /* [CP] Check Pods Manifest.lock */,
+				5C81916920134F78005311C3 /* Sources */,
+				5C81916A20134F78005311C3 /* Frameworks */,
+				5C81916B20134F78005311C3 /* Resources */,
+				AE1E1B9998BC47C6D9D57371 /* [CP] Embed Pods Frameworks */,
+				65D443FF1F60651FE85536A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 5C81916D20134F78005311C3 /* macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C81913620134F53005311C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Meniny;
+				TargetAttributes = {
+					5C81915620134F6C005311C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5C81916C20134F78005311C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C81913920134F53005311C3 /* Build configuration list for PBXProject "Sample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C81913520134F53005311C3;
+			productRefGroup = 5C81913F20134F53005311C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C81915620134F6C005311C3 /* iOS */,
+				5C81916C20134F78005311C3 /* macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C81915520134F6C005311C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C81916420134F6C005311C3 /* LaunchScreen.storyboard in Resources */,
+				5C81916120134F6C005311C3 /* Assets.xcassets in Resources */,
+				5C81915F20134F6C005311C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C81916B20134F78005311C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C81917420134F78005311C3 /* Assets.xcassets in Resources */,
+				5C81917720134F79005311C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EF9903C6CADE880326DA33C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaVinciAll-iOS/Pods-DaVinciAll-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF8D13ED35DF375A83425D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DaVinciAll-iOS/Pods-DaVinciAll-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DaVinci-iOS/DaVinci.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DaVinci.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaVinciAll-iOS/Pods-DaVinciAll-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D443FF1F60651FE85536A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaVinciAll-macOS/Pods-DaVinciAll-macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F35124AD44A3739CF959F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DaVinciAll-macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1E1B9998BC47C6D9D57371 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DaVinciAll-macOS/Pods-DaVinciAll-macOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DaVinci-macOS/DaVinci.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DaVinci.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DaVinciAll-macOS/Pods-DaVinciAll-macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57A3C77D7A22D4B7A3A5033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DaVinciAll-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C81915320134F6C005311C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C819185201352FE005311C3 /* DaVinciDraw.swift in Sources */,
+				5C81918820135387005311C3 /* CustomView.swift in Sources */,
+				5C81915C20134F6C005311C3 /* ViewController.swift in Sources */,
+				5C81915A20134F6C005311C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C81916920134F78005311C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C819186201352FE005311C3 /* DaVinciDraw.swift in Sources */,
+				5C81918A201353C5005311C3 /* CustomView.swift in Sources */,
+				5C81917220134F78005311C3 /* ViewController.swift in Sources */,
+				5C81917020134F78005311C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C81915D20134F6C005311C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C81915E20134F6C005311C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C81916220134F6C005311C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C81916320134F6C005311C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5C81917520134F79005311C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C81917620134F79005311C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C81914E20134F53005311C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C81914F20134F53005311C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C81916720134F6C005311C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D8F31E0CAFA5074693C9F0 /* Pods-DaVinciAll-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.DaVinci.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C81916820134F6C005311C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4125FC34C2AEAED18935B316 /* Pods-DaVinciAll-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.DaVinci.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C81917B20134F79005311C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC66DC4634CAC1107592A86 /* Pods-DaVinciAll-macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.DaVinci.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5C81917C20134F79005311C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC916DEA050D54676733D4A /* Pods-DaVinciAll-macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63YL5QDMNS;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.meniny.DaVinci.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C81913920134F53005311C3 /* Build configuration list for PBXProject "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C81914E20134F53005311C3 /* Debug */,
+				5C81914F20134F53005311C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C81916620134F6C005311C3 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C81916720134F6C005311C3 /* Debug */,
+				5C81916820134F6C005311C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C81917A20134F79005311C3 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C81917B20134F79005311C3 /* Debug */,
+				5C81917C20134F79005311C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C81913620134F53005311C3 /* Project object */;
+}

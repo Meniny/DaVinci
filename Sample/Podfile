@@ -1,0 +1,14 @@
+abstract_target 'DaVinciAll' do
+
+  pod 'DaVinci', :path => '../'
+
+  target 'iOS' do
+    platform :ios, '10.0'
+    use_frameworks!
+  end
+
+  target 'macOS' do
+    platform :osx, '10.10'
+    use_frameworks!
+  end
+end

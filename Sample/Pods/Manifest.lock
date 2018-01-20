@@ -1,0 +1,16 @@
+PODS:
+  - DaVinci (1.0.0)
+
+DEPENDENCIES:
+  - DaVinci (from `../`)
+
+EXTERNAL SOURCES:
+  DaVinci:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DaVinci: 7075745351bfab98f7a244103ea445954218b8b1
+
+PODFILE CHECKSUM: b412ec5d712ccb5cbde020d06f93b6eadb4e300b
+
+COCOAPODS: 1.4.0
