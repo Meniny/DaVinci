@@ -53,10 +53,10 @@ v{version}, 2018-05-08
 2+^m|Type 1+^m|Requirement
 
 1.5+^.^|Platform ^|iOS ^|{ios}+
-^|macOS ^e|{macos}
-^|tvOS ^e|{tvos}
-^|watchOS ^e|{watchos}
-^|Linux ^e|{linux}
+^|macOS ^|{macos}
+^|tvOS ^|{tvos}
+^|watchOS ^|{watchos}
+^|Linux ^|{linux}
 
 ^|IDE ^|Xcode ^| {xcode}+
 ^|Language ^|Swift ^| {swift}+
