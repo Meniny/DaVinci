@@ -1,6 +1,6 @@
 {
   "name": "DaVinci",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "More modern CoreGraphics wrapper for iOS/OS X",
   "homepage": "https://github.com/Meniny/DaVinci",
   "license": {
@@ -10,7 +10,7 @@
   "authors": "Elias Abel",
   "source": {
     "git": "https://github.com/Meniny/DaVinci.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "social_media_url": "https://meniny.cn/",
   "ios": {
@@ -31,5 +31,6 @@
     "osx": "10.10"
   },
   "description": "DaVinci is a more modern CoreGraphics wrapper for iOS/macOS",
-  "module_name": "DaVinci"
+  "module_name": "DaVinci",
+  "swift_version": "4.1"
 }

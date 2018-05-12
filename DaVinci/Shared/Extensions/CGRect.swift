@@ -3,9 +3,9 @@ import CoreGraphics
 
 public extension CGRect {
     /// Instantiates a rect using a center point instead of an origin.
-    public init(center: CGPoint, size: CGSize) {
-        self.size = size
-        self.origin = CGPoint(x: center.x - (size.width / 2), y: center.y - (size.height / 2))
+    public init(center c: CGPoint, size s: CGSize) {
+        self.size = s
+        self.origin = CGPoint(x: c.x - (s.width / 2), y: c.y - (s.height / 2))
     }
     
     /// Returns the center point of the rect.

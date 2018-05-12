@@ -1,0 +1,119 @@
+:name: DaVinci
+:author: Elias Abel
+:author_esc: Elias%20Abel
+:mail: admin@meniny.cn
+:desc: a more modern CoreGraphics wrapper for iOS/macOS.
+:icon: {name}.png
+:version: 1.0.2
+:na: N/A
+:ios: 10.0
+:macos: 10.10
+:watchos: {na}
+:tvos: {na}
+:linux: {na}
+:xcode: 9.3
+:swift: 4.1
+:license: MIT
+:sep: %20%7C%20
+:platform: iOS{sep}macOS
+= Meet `{name}`
+{author} <{mail}>
+v{version}, 2018-05-08
+
+[subs="attributes"]
+++++
+<p align="center">
+  <img src="./Assets/{icon}" alt="{name}">
+  <br/><br/>
+  <img alt="Author" src="https://img.shields.io/badge/author-{author_esc}-blue.svg">
+  <img alt="EMail" src="https://img.shields.io/badge/mail-{mail}-orange.svg">
+  <img alt="MIT" src="https://img.shields.io/badge/license-{license}-blue.svg">
+  <br/>
+  <img alt="Version" src="https://img.shields.io/badge/version-{version}-brightgreen.svg">
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-{platform}-lightgrey.svg">
+  <img alt="Swift" src="https://img.shields.io/badge/swift-{swift}%2B-orange.svg">
+  <br/>
+  <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+  <img alt="Cocoapods" src="https://img.shields.io/badge/cocoapods-compatible-brightgreen.svg">
+  <img alt="Carthage" src="https://img.shields.io/badge/carthage-compatible-brightgreen.svg">
+  <img alt="SPM" src="https://img.shields.io/badge/spm-compatible-brightgreen.svg">
+</p>
+++++
+
+:toc:
+
+== 🏵 Introduction
+
+**{name}** is {desc}.
+
+== 📋 Requirements
+
+[%header]
+|===
+2+^m|Type 1+^m|Requirement
+
+1.5+^.^|Platform ^|iOS ^|{ios}+
+^|macOS ^e|{macos}
+^|tvOS ^e|{tvos}
+^|watchOS ^e|{watchos}
+^|Linux ^e|{linux}
+
+^|IDE ^|Xcode ^| {xcode}+
+^|Language ^|Swift ^| {swift}+
+|===
+
+== 📲 Installation
+
+=== CocoaPods
+
+`{name}` is available on link:https://cocoapods.org[CocoaPods].
+
+[source, ruby, subs="verbatim,attributes"]
+----
+use_frameworks!
+pod '{name}'
+----
+
+=== Manually
+
+Copy all files in the `{name}` directory into your project.
+
+== 🛌 Dependency
+
+{na}
+
+== ❤️ Contribution
+
+You are welcome to fork and submit pull requests.
+
+== 🔖 License
+
+`{name}` is open-sourced software, licensed under the link:./LICENSE.md[`{license}`] license.
+
+== 🔫 Usage
+
+.Sample.swift
+[source, swift, subs="verbatim,attributes"]
+----
+import {name}
+
+public func draw(in context: CGContext, rect: CGRect) {
+    let fillColorOne: CGColor = #colorLiteral(red: 0.05, green:0.49, blue:0.98, alpha:0.8).cgColor
+    func cal(_ ref: CGFloat, _ acu: CGFloat) -> CGFloat {
+        let reference: CGFloat = 66
+        return (ref / reference) * acu
+    }
+
+    let arrowPartTop = DaVinciPath.init(point: CGPoint.init(x: cal(11, rect.width), y: rect.midY))
+        .addLine(to: CGPoint.init(x: cal(44.5, rect.width), y: 0))
+        .addLine(to: CGPoint.init(x: cal(54, rect.width), y: cal(9.5, rect.height)))
+        .addLine(to: CGPoint.init(x: cal(30, rect.width), y: rect.midY))
+        .close()
+    let arrowPartBottom = arrowPartTop.flip(.vertically, by: rect.midY)
+    let arrow = arrowPartTop + arrowPartBottom
+
+    context.fill(path: arrow, color: fillColorOne)
+}
+----
+
+image::./Assets/Sample.png[Sample]
