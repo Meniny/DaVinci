@@ -291,7 +291,7 @@ public extension DaVinci {
             let maskRef = maskImage.cgImage
             #else
             guard let maskRef = maskImage.cgImage else {
-                return
+                return nil
             }
             #endif
             
@@ -513,7 +513,7 @@ public extension DaVinci {
          - returns: CGImageRef with rotated/transformed image context
          */
         static func CGImageWithCorrectOrientation(_ image: DaVinciImage) -> CGImage? {
-            NSImage
+            
             if (image.imageOrientation == UIImageOrientation.up) {
                 return image.cgImage
             }
