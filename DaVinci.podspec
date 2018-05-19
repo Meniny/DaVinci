@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DaVinci'
   s.module_name      = 'DaVinci'
-  s.version          = "2.0.0"
+  s.version          = "2.0.1"
   s.summary          = "More modern CoreGraphics wrapper for iOS/macOS"
   s.description      = "DaVinci is a more modern CoreGraphics wrapper for iOS/macOS"
 
