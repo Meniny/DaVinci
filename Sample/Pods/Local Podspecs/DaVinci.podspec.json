@@ -21,33 +21,11 @@
     "osx": "10.10"
   },
   "swift_version": "4.1",
-  "default_subspecs": [
-    "Core",
-    "Mac",
-    "Touch"
-  ],
+  "default_subspecs": "Core",
   "subspecs": [
     {
       "name": "Core",
       "source_files": "DaVinci/Core/**/*.{h,swift}"
-    },
-    {
-      "name": "Mac",
-      "dependencies": {
-        "DaVinci/Core": [
-
-        ]
-      },
-      "source_files": "DaVinci/Mac/**/*.{h,swift}"
-    },
-    {
-      "name": "Touch",
-      "dependencies": {
-        "DaVinci/Core": [
-
-        ]
-      },
-      "source_files": "DaVinci/Touch/**/*.{h,swift}"
     }
   ]
 }
