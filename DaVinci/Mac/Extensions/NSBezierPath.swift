@@ -37,7 +37,7 @@ public extension NSBezierPath {
         }
         
         if !didClosePath { path.closeSubpath() }
-        points.deallocate(capacity: 3)
+        points.deallocate()
         return path
     }
     
