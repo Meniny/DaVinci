@@ -1,36 +1,38 @@
 
 import CoreGraphics
 
-public struct DaVinciPath {
-    /// The last point in the path.
-    public let currentPoint: CGPoint
-    
-    /// A list of path actions.
-    public let actions: [DaVinciPathAction]
-    
-    /// Instantiates a path with a point and a list of actions.
-    public init(point: CGPoint, pathActions: [DaVinciPathAction]) {
-        currentPoint = point
-        actions = pathActions
-    }
-    
-    /// Instantiates a path with a point.
-    public init(point: CGPoint) {
-        currentPoint = point
-        actions = [.move(point)]
-    }
-    
-    public static func rectangle(_ rect: CGRect) -> DaVinciPath {
-        let path = DaVinciPath.init(point: rect.origin)
-            .addLine(to: rect.topRightPoint)
-            .addLine(to: rect.bottomRightPoint)
-            .addLine(to: rect.bottomLeftPoint)
-            .close()
-        return path
+public extension DaVinci {
+    public struct Path {
+        /// The last point in the path.
+        public let currentPoint: CGPoint
+        
+        /// A list of path actions.
+        public let actions: [DaVinci.PathAction]
+        
+        /// Instantiates a path with a point and a list of actions.
+        public init(point: CGPoint, pathActions: [DaVinci.PathAction]) {
+            currentPoint = point
+            actions = pathActions
+        }
+        
+        /// Instantiates a path with a point.
+        public init(point: CGPoint) {
+            currentPoint = point
+            actions = [.move(point)]
+        }
+        
+        public static func rectangle(_ rect: CGRect) -> DaVinci.Path {
+            let path = DaVinci.Path.init(point: rect.origin)
+                .addLine(to: rect.topRightPoint)
+                .addLine(to: rect.bottomRightPoint)
+                .addLine(to: rect.bottomLeftPoint)
+                .close()
+            return path
+        }
     }
 }
 
-public extension DaVinciPath {
+public extension DaVinci.Path {
     /// A computed CGPath property created from the path.
     var cgPath: CGPath {
         get {
@@ -52,16 +54,16 @@ public extension DaVinciPath {
     }
 }
 
-public extension DaVinciPath {
+public extension DaVinci.Path {
     /// Flips a path vertically along an axis with a given Y value.
     ///
     /// - parameter axisY: The Y coordinate of the symmetry axis.
     ///
     /// - returns: A new path flipped vertically alongside the given Y axis.
-    public func flipVertically(by axisY: CGFloat) -> DaVinciPath {
+    public func flipVertically(by axisY: CGFloat) -> DaVinci.Path {
         let flippedPoint = currentPoint.flipVertically(by: axisY)
         let flippedActions = actions.map { $0.flipVertically(by: axisY) }
-        return DaVinciPath(point: flippedPoint, pathActions: flippedActions)
+        return DaVinci.Path(point: flippedPoint, pathActions: flippedActions)
     }
     
     /// Flips a path horizontally along an axis with a given X value.
@@ -69,10 +71,10 @@ public extension DaVinciPath {
     /// - parameter axisX: The X coordinate of the symmetry axis.
     ///
     /// - returns: A new path flipped horizontally alongside the given X axis.
-    public func flipHorizontally(by axisX: CGFloat) -> DaVinciPath {
+    public func flipHorizontally(by axisX: CGFloat) -> DaVinci.Path {
         let flippedPoint = currentPoint.flipHorizontally(by: axisX)
         let flippedActions = actions.map { $0.flipHorizontally(by: axisX) }
-        return DaVinciPath(point: flippedPoint, pathActions: flippedActions)
+        return DaVinci.Path(point: flippedPoint, pathActions: flippedActions)
     }
     
     /// Flips a path horizontally/vertically along an axis with a given X/Y value.
@@ -80,7 +82,7 @@ public extension DaVinciPath {
     /// - parameter axis: The X/Y coordinate of the symmetry axis.
     ///
     /// - returns: A new path flipped horizontally/vertically alongside the given X/Y axis.
-    public func flip(_ type: FlipType, by axis: CGFloat) -> DaVinciPath {
+    public func flip(_ type: CGFlipping, by axis: CGFloat) -> DaVinci.Path {
         switch type {
         case .horizontally:
             return self.flipHorizontally(by: axis)
@@ -90,13 +92,13 @@ public extension DaVinciPath {
     }
 }
 
-public extension DaVinciPath {
+public extension DaVinci.Path {
     /// Concatenate two paths together.
     ///
     /// - parameter rhp: Right hand path.
     ///
     /// - returns: A new path.
-    public func concat(with rhp: DaVinciPath) -> DaVinciPath {
+    public func concat(with rhp: DaVinci.Path) -> DaVinci.Path {
         return self + rhp
     }
     
@@ -105,19 +107,19 @@ public extension DaVinciPath {
     /// - parameter lhp: Left hand path.
     ///
     /// - returns: A new path.
-    public func concat(to lhp: DaVinciPath) -> DaVinciPath {
+    public func concat(to lhp: DaVinci.Path) -> DaVinci.Path {
         return lhp + self
     }
 }
 
-public extension DaVinciPath {
+public extension DaVinci.Path {
     /// Returns a new path moved to a given a point.
     ///
     /// - parameter point: The point to move to.
     ///
     /// - returns: A new path moved to the given point.
-    public func move(to point: CGPoint) -> DaVinciPath {
-        return DaVinciPath(point: point, pathActions: actions + [.move(point)])
+    public func move(to point: CGPoint) -> DaVinci.Path {
+        return DaVinci.Path(point: point, pathActions: actions + [.move(point)])
     }
     
     /// Returns a new path after adding a line to a given point in an existing path.
@@ -125,16 +127,16 @@ public extension DaVinciPath {
     /// - parameter point: The end point of the line.
     ///
     /// - returns: A new path with a new line added to it.
-    public func addLine(to point: CGPoint) -> DaVinciPath {
-        return DaVinciPath(point: point, pathActions: actions + [.addLine(point)])
+    public func addLine(to point: CGPoint) -> DaVinci.Path {
+        return DaVinci.Path(point: point, pathActions: actions + [.addLine(point)])
     }
     
     
     /// Returns a new path after closing the existing path.
     ///  ///
     /// - returns: A new closed path.
-    public func close() -> DaVinciPath {
-        return DaVinciPath(point: currentPoint, pathActions: actions + [.close])
+    public func close() -> DaVinci.Path {
+        return DaVinci.Path(point: currentPoint, pathActions: actions + [.close])
     }
     
     /// Returns a new path after adding a line towards a given platform-agnostic direction in the existing path.
@@ -142,7 +144,7 @@ public extension DaVinciPath {
     /// - parameter directions: A dictionary containing one or more `GraphicsDirection` as keys, and delta distance as values. The path will be moved  by the delta distance towards the corresponding value.
     ///
     /// - returns: A new path with a new line added to it.
-    public func addLine(towards directions: [GraphicsDirection: Float]) -> DaVinciPath {
+    public func addLine(towards directions: [GraphicsDirection: Float]) -> DaVinci.Path {
         var destinationPoint = currentPoint
         for (direction, delta) in directions {
             switch direction {
@@ -165,7 +167,22 @@ public extension DaVinciPath {
             }
         }
         
-        return DaVinciPath(point: destinationPoint, pathActions: actions + [.addLine(destinationPoint)])
+        return DaVinci.Path(point: destinationPoint, pathActions: actions + [.addLine(destinationPoint)])
     }
 }
 
+/// Concatenate two paths together.
+public func + (lhp: DaVinci.Path, rhp: DaVinci.Path) -> DaVinci.Path {
+    let actions = lhp.actions + rhp.actions
+    return DaVinci.Path(point: rhp.currentPoint, pathActions: actions)
+}
+
+/// Concatenate two paths together.
+///
+/// - parameter lhp: Left hand path.
+/// - parameter rhp: Right hand path.
+///
+/// - returns: A new path.
+public func concat(_ lhp: DaVinci.Path, _ rhp: DaVinci.Path) -> DaVinci.Path {
+    return lhp + rhp
+}

@@ -4,7 +4,7 @@
 :mail: admin@meniny.cn
 :desc: a more modern CoreGraphics wrapper for iOS/macOS.
 :icon: {name}.png
-:version: 1.0.2
+:version: 2.0.0
 :na: N/A
 :ios: 10.0
 :macos: 10.10
@@ -30,7 +30,7 @@ v{version}, 2018-05-08
   <img alt="MIT" src="https://img.shields.io/badge/license-{license}-blue.svg">
   <br/>
   <img alt="Version" src="https://img.shields.io/badge/version-{version}-brightgreen.svg">
-  <img alt="Platforms" src="https://img.shields.io/badge/platform-{platform}-lightgrey.svg">
+  <img alt="PlatformType" src="https://img.shields.io/badge/platform-{platform}-lightgrey.svg">
   <img alt="Swift" src="https://img.shields.io/badge/swift-{swift}%2B-orange.svg">
   <br/>
   <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
@@ -104,7 +104,7 @@ public func draw(in context: CGContext, rect: CGRect) {
         return (ref / reference) * acu
     }
 
-    let arrowPartTop = DaVinciPath.init(point: CGPoint.init(x: cal(11, rect.width), y: rect.midY))
+    let arrowPartTop = DaVinci.Path.init(point: CGPoint.init(x: cal(11, rect.width), y: rect.midY))
         .addLine(to: CGPoint.init(x: cal(44.5, rect.width), y: 0))
         .addLine(to: CGPoint.init(x: cal(54, rect.width), y: cal(9.5, rect.height)))
         .addLine(to: CGPoint.init(x: cal(30, rect.width), y: rect.midY))

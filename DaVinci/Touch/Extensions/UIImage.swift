@@ -1,4 +1,5 @@
 
+#if !os(macOS)
 import UIKit
 
 extension UIImage {
@@ -32,3 +33,4 @@ extension UIImage {
     }
 }
 
+#endif

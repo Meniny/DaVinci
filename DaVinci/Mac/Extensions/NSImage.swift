@@ -1,4 +1,5 @@
 
+#if os(macOS)
 import AppKit.NSImage
 
 extension NSImage {
@@ -33,3 +34,4 @@ extension NSImage {
     }
 }
 
+#endif

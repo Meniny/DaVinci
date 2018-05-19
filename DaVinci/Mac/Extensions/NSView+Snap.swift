@@ -1,4 +1,5 @@
 
+#if os(macOS)
 import AppKit
 
 public extension NSView {
@@ -15,3 +16,4 @@ public extension NSView {
     }
 }
 
+#endif

@@ -25,7 +25,7 @@ public func draw(in context: CGContext, rect: CGRect) {
         return (ref / reference) * acu
     }
     
-    let arrowPartTop = DaVinciPath.init(point: CGPoint.init(x: cal(11, rect.width), y: rect.midY))
+    let arrowPartTop = DaVinci.Path.init(point: CGPoint.init(x: cal(11, rect.width), y: rect.midY))
         .addLine(to: CGPoint.init(x: cal(44.5, rect.width), y: 0))
         .addLine(to: CGPoint.init(x: cal(54, rect.width), y: cal(9.5, rect.height)))
         .addLine(to: CGPoint.init(x: cal(30, rect.width), y: rect.midY))

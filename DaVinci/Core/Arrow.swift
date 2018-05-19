@@ -5,14 +5,6 @@
 //  Created by Meniny on 2018-01-20.
 //
 
-#if os(macOS)
-    import AppKit
-    public typealias ImageType = NSImage
-#else
-    import UIKit
-    public typealias ImageType = UIImage
-#endif
-
 public enum ArrowDirection {
     case left
     case right
@@ -20,15 +12,15 @@ public enum ArrowDirection {
     case down
 }
 
-public extension ImageType {
-    public class func arrow(_ direction: ArrowDirection, square: CGFloat, color: CGColor, background: CGColor? = nil) -> ImageType {
+public extension DaVinciImage {
+    public class func arrow(_ direction: ArrowDirection, square: CGFloat, color: CGColor, background: CGColor? = nil) -> DaVinciImage {
         let rect = CGRect.init(x: 0, y: 0, width: square, height: square)
-        return ImageType.render(rect.size, transparency: background == nil) { _ in
+        return DaVinciImage.render(rect.size, transparency: background == nil) { _ in
             
             let context = CGContext.current
             
             if let background = background {
-                let back = DaVinciPath.rectangle(rect)
+                let back = DaVinci.Path.rectangle(rect)
                 context?.fill(path: back, color: background)
             }
             
@@ -37,7 +29,7 @@ public extension ImageType {
                 return (ref / reference) * acu
             }
             
-            let arrowPartTop = DaVinciPath.init(point: CGPoint.init(x: cal(11, rect.width), y: rect.midY))
+            let arrowPartTop = DaVinci.Path.init(point: CGPoint.init(x: cal(11, rect.width), y: rect.midY))
                 .addLine(to: CGPoint.init(x: cal(44.5, rect.width), y: 0))
                 .addLine(to: CGPoint.init(x: cal(54, rect.width), y: cal(9.5, rect.height)))
                 .addLine(to: CGPoint.init(x: cal(30, rect.width), y: rect.midY))

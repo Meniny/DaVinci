@@ -1,7 +1,9 @@
 {
   "name": "DaVinci",
-  "version": "1.0.2",
-  "summary": "More modern CoreGraphics wrapper for iOS/OS X",
+  "module_name": "DaVinci",
+  "version": "2.0.0",
+  "summary": "More modern CoreGraphics wrapper for iOS/macOS",
+  "description": "DaVinci is a more modern CoreGraphics wrapper for iOS/macOS",
   "homepage": "https://github.com/Meniny/DaVinci",
   "license": {
     "type": "MIT",
@@ -10,27 +12,42 @@
   "authors": "Elias Abel",
   "source": {
     "git": "https://github.com/Meniny/DaVinci.git",
-    "tag": "1.0.2"
+    "tag": "2.0.0"
   },
   "social_media_url": "https://meniny.cn/",
-  "ios": {
-    "source_files": [
-      "DaVinci/DaVinciTouch/**/*.swift",
-      "DaVinci/Shared/**/*.swift"
-    ]
-  },
-  "osx": {
-    "source_files": [
-      "DaVinci/DaVinciMac/**/*.swift",
-      "DaVinci/Shared/**/*.swift"
-    ]
-  },
   "requires_arc": true,
   "platforms": {
     "ios": "10.0",
     "osx": "10.10"
   },
-  "description": "DaVinci is a more modern CoreGraphics wrapper for iOS/macOS",
-  "module_name": "DaVinci",
-  "swift_version": "4.1"
+  "swift_version": "4.1",
+  "default_subspecs": [
+    "Core",
+    "Mac",
+    "Touch"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "DaVinci/Core/**/*.{h,swift}"
+    },
+    {
+      "name": "Mac",
+      "dependencies": {
+        "DaVinci/Core": [
+
+        ]
+      },
+      "source_files": "DaVinci/Mac/**/*.{h,swift}"
+    },
+    {
+      "name": "Touch",
+      "dependencies": {
+        "DaVinci/Core": [
+
+        ]
+      },
+      "source_files": "DaVinci/Touch/**/*.{h,swift}"
+    }
+  ]
 }

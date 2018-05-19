@@ -3,7 +3,7 @@ import Foundation
 
 public typealias ExecuteClosure = () -> Swift.Void
 
-public enum Platforms {
+public enum PlatformType {
     case iOS(ExecuteClosure)
     case macOS(ExecuteClosure)
     case watchOS(ExecuteClosure)
@@ -12,7 +12,7 @@ public enum Platforms {
 }
 
 /// Runs code condtionally depending on the platform.
-public func execute(on platforms: Platforms...) {
+public func execute(on platforms: PlatformType...) {
     for p in platforms {
         #if os(iOS)
             switch p {

@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let image = UIImage.arrow(.right,
+        let image = DaVinciImage.arrow(.right,
                                   square: 66,
                                   color: #colorLiteral(red: 0.05, green:0.49, blue:0.98, alpha:0.8).cgColor,
                                   background: UIColor.white.cgColor)

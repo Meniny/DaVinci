@@ -1,4 +1,5 @@
 
+#if !os(macOS)
 import UIKit
 
 extension UIBezierPath {
@@ -14,3 +15,4 @@ extension UIBezierPath {
     }
 }
 
+#endif

@@ -25,7 +25,7 @@ extension CGPoint {
     /// - parameter axis: The X/Y coordinate of the symmetry axis.
     ///
     /// - returns: A new point flipped horizontally/vertically alongside the given X/Y axis.
-    public func flip(_ type: FlipType, by axis: CGFloat) -> CGPoint {
+    public func flip(_ type: CGFlipping, by axis: CGFloat) -> CGPoint {
         switch type {
         case .horizontally:
             return self.flipHorizontally(by: axis)

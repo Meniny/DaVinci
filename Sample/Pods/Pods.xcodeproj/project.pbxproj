@@ -7,50 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		098955182A69F3F14830414CAA2FED39 /* DaVinci-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673A6E753AA09B5D5D5CB391CEAFE0A9 /* DaVinci-macOS-dummy.m */; };
-		147484F41B274AC51BC9ECC034D8E0D4 /* PathHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866D947F31C265D69D1297792B1600C /* PathHelpers.swift */; };
-		2987BDEF184AE923C924B5D7C6DD69B5 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068CB2EE25DBB3F973EE0D61E8A6DAA /* Path.swift */; };
-		29A6D4A398E118B64995C41251FB4482 /* NSView+Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07E1C1CC9965730C5E00CF7D359E05 /* NSView+Snap.swift */; };
-		30F245E8E967C83DC968AD17E51645EA /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB7EFBE92A1B243B1AFA7859E2161B /* Units.swift */; };
-		3AA100847B69767995F5DAD5372F0B43 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78688CCFB96ADFB08570076E9B65A824 /* UIImage.swift */; };
-		3C3E1727E8E2E869FAB68FB223592437 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2294D3A26F486F2521B626016B5CA /* Direction.swift */; };
-		40075BC50837254D7739B116004E5FA5 /* PathAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143A7D31EE5F4AA6170F615218D1737 /* PathAction.swift */; };
-		40D61C5A47FBD776402AB3EEA304ACFE /* PlatformHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA94AB706A9383DB9FE03CBA61FCD8 /* PlatformHelper.swift */; };
-		53096456AC3F71CF2A8B3436B82FDB68 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78493A15C8F23ADDA4F75A7A331FF2DE /* NSView.swift */; };
+		0ACCF7E00AD49D5C0388E54BD7584C04 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A3C1174E5420CF41C09BBCAEA0A28 /* CGPoint.swift */; };
+		1034B8DB8AE57C6D5F050F5B2AA61DA3 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80895379106F0F1A015605339DE037A9 /* UIImage.swift */; };
+		12F4927AF868D30DC6BD530A3FAB4CB1 /* CGContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EDA2C3DB4338F53990D62CD4B6E69 /* CGContext.swift */; };
+		14C86234FA3353FDAB4968CAD1201654 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC4175928616A51BC705ACEE4F5F18 /* Path.swift */; };
+		1686DAAF727CA6419688D2388913E1F7 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7742C8A4872D532A47489AC01B3C241 /* UIBezierPath.swift */; };
+		19E769A93C803585E141CE0CC9D98A28 /* TouchDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908B7C492D922A072EAC62E43846F6E /* TouchDrawing.swift */; };
+		1D40D0EAFA5CC5300A8D847367E2F464 /* CGContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EDA2C3DB4338F53990D62CD4B6E69 /* CGContext.swift */; };
+		2241877CEBB7DD229BBC4A6432AF5DCA /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6238E78F79C7F15963C5C9AD2BABD /* NSBezierPath.swift */; };
+		2AD715E4B17DCD8C52DE29E7B1034062 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B5ABAC4F4D2BA64381F1EC2B25314 /* NSImage.swift */; };
+		2E64C0A960B20C9C85024156700300E6 /* DaVinci.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61997681CB020ECC9BAADCD5BD1C0F9 /* DaVinci.swift */; };
+		3C0F23522B6056FFDE1123DF9BAB4853 /* DaVinci-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC61ABDBC428AAD67A44E0B9AF74CA2 /* DaVinci-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CBF8B8F099814B28DBFA0F12EDB627A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */; };
+		49473751F5F3CB89675C1448FDE5BDCF /* DaVinci.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61997681CB020ECC9BAADCD5BD1C0F9 /* DaVinci.swift */; };
+		5108F2BB3A23CD2E9D4393C919DAB6B2 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78AD41E59B2FD69A400BBAA2ABB141B /* CGRect.swift */; };
+		51108AD254D340BBBE3883AA89B13357 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EED047915DB814EEC0F12A2AD74490 /* Arrow.swift */; };
 		55E41EF99272018DEB43AF991EF1C68A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
-		565046F025F5A9061D5155BFAEC12C5D /* CGContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B98408C969F1EA6A68FF06B6C1673 /* CGContext.swift */; };
-		5EA2F0AD6B9287737C92D334F43EB35E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC75EC4B8FCDBF51581550418267E5 /* Drawing.swift */; };
-		64E82D51C892A5704BC8FBF3A82F1A10 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB6248878C21AA7CA31318D5F752012 /* CGPoint.swift */; };
-		66C8DF5DFFD89CFF78ED3DFCB7F09609 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB7EFBE92A1B243B1AFA7859E2161B /* Units.swift */; };
+		5BEDB78526663B2A82293C2993D7D202 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8ABED8AE6A8D502C9685BA32CB490 /* Platform.swift */; };
+		5C15429B8340485245846FE01AD71140 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C331597917DE33B72B636C941C86E67 /* NSView.swift */; };
+		61B0B277E802A499226CB81C9FF3AF57 /* NSView+Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF43FE671D5F2D936626CC89F6199F /* NSView+Snap.swift */; };
+		6C3DB653259FB4FB8BD91B0C6C593ACF /* MacDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D526FBE056F0C0D11482259C069D4 /* MacDrawing.swift */; };
 		73AA1191FBB712B4BBA98060CC31B9E9 /* Pods-DaVinciAll-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86031E139E13AEF3C094CE8B395C81D7 /* Pods-DaVinciAll-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788F3557AFABF17F4C4FF526ADFB58AE /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB6248878C21AA7CA31318D5F752012 /* CGPoint.swift */; };
-		799D0355528E9F24FA51466CF3683B46 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377D55827E2875CEEE985C812A0A8FEA /* NSImage.swift */; };
-		7DE57D89D5203038B2C85E3032766392 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068CB2EE25DBB3F973EE0D61E8A6DAA /* Path.swift */; };
-		8A87EBCEDC70ACE6C7C56CFB3C36EBEB /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B182B9BA764509C748D117B453DB7 /* Arrow.swift */; };
-		8B5346EBE8DF83669BBD33AA91661FA9 /* DaVinci-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B0CDB4A6FF1C295ED65A1D6886BB68 /* DaVinci-iOS-dummy.m */; };
-		8F55A4E6074C882A0ABF638C5D8E6A17 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64A9300003E2004FA833C10F41B20F5 /* Flip.swift */; };
-		9A44A55EED47B0CDBB8FAAD08245B6B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */; };
-		9ECB78C2AE8FD4ACD332CE6F9887E11F /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7EF95564A785255E411BB2F444DB7F /* UIBezierPath.swift */; };
-		A22EC5137E2D32B0A5660243911BCBC6 /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743BABDDE9FAF95ABA9E18B8D79309D /* NSBezierPath.swift */; };
-		A8B001422800BCBD9B0EEBCFCCDAF5C5 /* Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64A9300003E2004FA833C10F41B20F5 /* Flip.swift */; };
-		AA39B4924ED066DEA7B095D3BA5AB26D /* DaVinci-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EEB44EDE08EE3AC3EC5699B7B6F740C /* DaVinci-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73EF9B636476C33785F65B7FC2E593D3 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC4175928616A51BC705ACEE4F5F18 /* Path.swift */; };
+		815F1FE6E633C77E0DA6857280ABBD5C /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C331597917DE33B72B636C941C86E67 /* NSView.swift */; };
+		8B883ACD50277B99E869CB5EF033D288 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78AD41E59B2FD69A400BBAA2ABB141B /* CGRect.swift */; };
+		990F67F68378F0F6AD043FE76C4BDDB6 /* PathAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4E3D2C96D29EC447A02060C6EFBAC /* PathAction.swift */; };
+		9B748385B80C2123E04012E5F3A445EF /* PathAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4E3D2C96D29EC447A02060C6EFBAC /* PathAction.swift */; };
+		A90B967289056B5607B52D062BFE7836 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943DF93FA52A158AC1B7084369C8E120 /* Defines.swift */; };
 		AC985D0B891C4A8162EE8254A178E0D6 /* Pods-DaVinciAll-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFF8025605FA752BF3A13F171366B0E /* Pods-DaVinciAll-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACBC83DEAC0221D80B402A3E1B34B90F /* PlatformHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA94AB706A9383DB9FE03CBA61FCD8 /* PlatformHelper.swift */; };
-		B2D8E67A119D0A11CEEF60A76BC1B1C7 /* CGContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B98408C969F1EA6A68FF06B6C1673 /* CGContext.swift */; };
-		B3F3F5A2491EBB12890958E81A82828A /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851CFCCACF25F14FEF1C3DE0481C65A9 /* Aliases.swift */; };
-		B8BFB1176E828CF526D39AF0049B8B09 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440621DD9D8F37DE81A08E9AE6AFAFE /* Drawing.swift */; };
 		BC9E5E6CCBD30D5FBCD3CFB13D5426EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
+		BE79E09954D7DA21F01A434A8D97D186 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80895379106F0F1A015605339DE037A9 /* UIImage.swift */; };
+		C1B1C6310B106D49E31BE691CACB8CB9 /* DaVinci-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7845521C685FC13960D522356343A /* DaVinci-iOS-dummy.m */; };
 		D17545A9A1CB69C74D852E32312268EF /* Pods-DaVinciAll-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7579B508914AADD7950F9EBB68D081BA /* Pods-DaVinciAll-macOS-dummy.m */; };
-		D2E1A50161EA651930CCD97DCB3C9C02 /* PathHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866D947F31C265D69D1297792B1600C /* PathHelpers.swift */; };
+		D1A52DE1038EAB9AB7C994D2B61A4FCF /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F8ABED8AE6A8D502C9685BA32CB490 /* Platform.swift */; };
+		D3B5BF5F365194AF1691A8D6D9A11804 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EED047915DB814EEC0F12A2AD74490 /* Arrow.swift */; };
 		D53D0B20F8287B7CBFFFB5B4A656224D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */; };
-		D911E20BBF8FEB023CD40AB19157A9E5 /* DaVinci-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26492D7999CCD8545B22EBC0C98D5471 /* DaVinci-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF3781862A7331A034C4C29A9CD98B3B /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851CFCCACF25F14FEF1C3DE0481C65A9 /* Aliases.swift */; };
-		E2CAE998466125D4846201C4A409E1A7 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B182B9BA764509C748D117B453DB7 /* Arrow.swift */; };
-		EB4A74F6E74F2B3BEBABCD9963C8705E /* PathAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143A7D31EE5F4AA6170F615218D1737 /* PathAction.swift */; };
+		D8037FF3E2580046C6A26A8429472325 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943DF93FA52A158AC1B7084369C8E120 /* Defines.swift */; };
+		D911E20BBF8FEB023CD40AB19157A9E5 /* DaVinci-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B2362835D24FC036606FAF119D6EC2 /* DaVinci-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABACEE16F8A9AEC10C8DB14A75F6654 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0B5ABAC4F4D2BA64381F1EC2B25314 /* NSImage.swift */; };
+		E201441A3523A0058ABB1715A59BB13B /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24A3C1174E5420CF41C09BBCAEA0A28 /* CGPoint.swift */; };
+		E7100DD16AAA0DB44D19D4E4F6953A82 /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6238E78F79C7F15963C5C9AD2BABD /* NSBezierPath.swift */; };
+		EB2825DB8E796E92FD829B25039C1300 /* MacDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D526FBE056F0C0D11482259C069D4 /* MacDrawing.swift */; };
 		EBF587F6C85EF95DCE070A372A936D76 /* Pods-DaVinciAll-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C516778BE26EFB8B1CC351EAE24B2A /* Pods-DaVinciAll-iOS-dummy.m */; };
-		F00B09BA22E3C949924E9635513D1E66 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B5FFD4EA77F89F3D3ED31FF44AE3F3 /* CGRect.swift */; };
-		F4EDB075B290B35F334D21803D774C65 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B5FFD4EA77F89F3D3ED31FF44AE3F3 /* CGRect.swift */; };
-		FD738DE786E39964318E60C9B576E4EA /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2294D3A26F486F2521B626016B5CA /* Direction.swift */; };
+		F6648F29071A45188A6A25E92BBBC7EC /* NSView+Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF43FE671D5F2D936626CC89F6199F /* NSView+Snap.swift */; };
+		F698C7F1AEC90F4BC67FD05AEA53C73A /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7742C8A4872D532A47489AC01B3C241 /* UIBezierPath.swift */; };
+		FCDD613970CFC659B8B265B3F8596DE8 /* TouchDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8908B7C492D922A072EAC62E43846F6E /* TouchDrawing.swift */; };
+		FD5A8DB687CECD84E0EE6424596AB41D /* DaVinci-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A01CCCDE682383AF01D31219F3802E7B /* DaVinci-macOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,90 +67,87 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E563491A4726D0D0C7F10714650880C;
+			remoteGlobalIDString = C15B09BBD9FCF0CDA32CC7F5E96DD5F6;
 			remoteInfo = "DaVinci-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0143A7D31EE5F4AA6170F615218D1737 /* PathAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PathAction.swift; sourceTree = "<group>"; };
 		02DD1F4581040E47DE07314E488F31A2 /* Pods-DaVinciAll-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaVinciAll-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		05D0B66665B2F542C79C7EB7CE7AC2A5 /* DaVinci.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DaVinci.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0866D947F31C265D69D1297792B1600C /* PathHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PathHelpers.swift; sourceTree = "<group>"; };
 		0CCF2787DFFCF21EDB3EF088E41FEF34 /* Pods-DaVinciAll-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaVinciAll-iOS-frameworks.sh"; sourceTree = "<group>"; };
-		15D53EB209954D5AA2D7A2CFE262D63E /* DaVinci-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DaVinci-iOS-prefix.pch"; sourceTree = "<group>"; };
 		17C516778BE26EFB8B1CC351EAE24B2A /* Pods-DaVinciAll-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DaVinciAll-iOS-dummy.m"; sourceTree = "<group>"; };
+		1CE2DE1E31243B9C84CD28094433CB20 /* DaVinci-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DaVinci-macOS.xcconfig"; path = "../DaVinci-macOS/DaVinci-macOS.xcconfig"; sourceTree = "<group>"; };
 		23C52ACDD992D7D14B3C448B1E3DF6DB /* Pods-DaVinciAll-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DaVinciAll-iOS.modulemap"; sourceTree = "<group>"; };
-		26492D7999CCD8545B22EBC0C98D5471 /* DaVinci-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DaVinci-macOS-umbrella.h"; path = "../DaVinci-macOS/DaVinci-macOS-umbrella.h"; sourceTree = "<group>"; };
-		2743BABDDE9FAF95ABA9E18B8D79309D /* NSBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSBezierPath.swift; sourceTree = "<group>"; };
-		2AEB3E5D49E4EE5963B5B8F945756594 /* DaVinci-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DaVinci-macOS.modulemap"; path = "../DaVinci-macOS/DaVinci-macOS.modulemap"; sourceTree = "<group>"; };
-		3059203FB3ABDFB1681DC648E9853738 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
-		377D55827E2875CEEE985C812A0A8FEA /* NSImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		2DEBC0423CA6F10DA349916613F83302 /* DaVinci-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DaVinci-iOS-prefix.pch"; sourceTree = "<group>"; };
+		2FC7845521C685FC13960D522356343A /* DaVinci-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DaVinci-iOS-dummy.m"; sourceTree = "<group>"; };
+		30AF43FE671D5F2D936626CC89F6199F /* NSView+Snap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSView+Snap.swift"; sourceTree = "<group>"; };
+		30EED047915DB814EEC0F12A2AD74490 /* Arrow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arrow.swift; path = DaVinci/Core/Arrow.swift; sourceTree = "<group>"; };
+		36B532F75DA284983B96C16F99DC159F /* DaVinci-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DaVinci-iOS.xcconfig"; sourceTree = "<group>"; };
 		39B4B13001A3DE53436014E1B980D6EB /* Pods-DaVinciAll-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaVinciAll-macOS.release.xcconfig"; sourceTree = "<group>"; };
-		3BB6248878C21AA7CA31318D5F752012 /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
-		49B5FFD4EA77F89F3D3ED31FF44AE3F3 /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
-		4CDED2BC05F4B5D53375CB8BA8DB48F3 /* DaVinci-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DaVinci-macOS-prefix.pch"; path = "../DaVinci-macOS/DaVinci-macOS-prefix.pch"; sourceTree = "<group>"; };
-		4EEB44EDE08EE3AC3EC5699B7B6F740C /* DaVinci-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DaVinci-iOS-umbrella.h"; sourceTree = "<group>"; };
+		464EDA2C3DB4338F53990D62CD4B6E69 /* CGContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGContext.swift; sourceTree = "<group>"; };
+		47B3632C17B12E7D61F9B59A4FC53846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../DaVinci-macOS/Info.plist"; sourceTree = "<group>"; };
 		51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		534D526FBE056F0C0D11482259C069D4 /* MacDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MacDrawing.swift; path = DaVinci/Mac/MacDrawing.swift; sourceTree = "<group>"; };
+		5C331597917DE33B72B636C941C86E67 /* NSView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		5E0B5ABAC4F4D2BA64381F1EC2B25314 /* NSImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		646E25F0863489EEC18DAC0C290C869F /* Pods-DaVinciAll-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaVinciAll-macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		673A6E753AA09B5D5D5CB391CEAFE0A9 /* DaVinci-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DaVinci-macOS-dummy.m"; path = "../DaVinci-macOS/DaVinci-macOS-dummy.m"; sourceTree = "<group>"; };
+		65244653B403F615F2F596C6405F58B1 /* README.adoc */ = {isa = PBXFileReference; includeInIndex = 1; path = README.adoc; sourceTree = "<group>"; };
+		65416724BA7AF53CAA7FB3BF2854D5EC /* DaVinci.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DaVinci.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68F8ABED8AE6A8D502C9685BA32CB490 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = DaVinci/Core/Platform.swift; sourceTree = "<group>"; };
 		69AD21F94E30772422E2549D16E44D2F /* DaVinci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DaVinci.framework; path = "DaVinci-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B50AC87DFBD9C51E1798663E01AA925 /* Pods-DaVinciAll-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DaVinciAll-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C7ACC46CAA5BE467ED8208265486967 /* DaVinci-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "DaVinci-macOS.modulemap"; path = "../DaVinci-macOS/DaVinci-macOS.modulemap"; sourceTree = "<group>"; };
 		6FDDC90B8D5B105B555D466E1FFAC7AD /* Pods-DaVinciAll-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaVinciAll-iOS-resources.sh"; sourceTree = "<group>"; };
 		7579B508914AADD7950F9EBB68D081BA /* Pods-DaVinciAll-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DaVinciAll-macOS-dummy.m"; sourceTree = "<group>"; };
 		76533330BB8F7FDB443CA2ED1E6E89BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78493A15C8F23ADDA4F75A7A331FF2DE /* NSView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
-		78688CCFB96ADFB08570076E9B65A824 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		78C4E3D2C96D29EC447A02060C6EFBAC /* PathAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathAction.swift; path = DaVinci/Core/PathAction.swift; sourceTree = "<group>"; };
+		7DC61ABDBC428AAD67A44E0B9AF74CA2 /* DaVinci-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DaVinci-iOS-umbrella.h"; sourceTree = "<group>"; };
+		80895379106F0F1A015605339DE037A9 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		8227FAF19A5B76F5A4CA7488C86D7833 /* DaVinci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DaVinci.framework; path = "DaVinci-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84BC75EC4B8FCDBF51581550418267E5 /* Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
-		851CFCCACF25F14FEF1C3DE0481C65A9 /* Aliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
 		86031E139E13AEF3C094CE8B395C81D7 /* Pods-DaVinciAll-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DaVinciAll-iOS-umbrella.h"; sourceTree = "<group>"; };
-		86EE607C3B72641F16239512D46492B8 /* DaVinci-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DaVinci-macOS.xcconfig"; path = "../DaVinci-macOS/DaVinci-macOS.xcconfig"; sourceTree = "<group>"; };
+		8908B7C492D922A072EAC62E43846F6E /* TouchDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchDrawing.swift; path = DaVinci/Touch/TouchDrawing.swift; sourceTree = "<group>"; };
+		8BB8093EA6D3980625F67BA7DBFDB715 /* DaVinci-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DaVinci-macOS-prefix.pch"; path = "../DaVinci-macOS/DaVinci-macOS-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943DF93FA52A158AC1B7084369C8E120 /* Defines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defines.swift; path = DaVinci/Core/Defines.swift; sourceTree = "<group>"; };
 		9D11FA19D78F9F02C9830DC0CA7D9288 /* Pods-DaVinciAll-macOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaVinciAll-macOS-frameworks.sh"; sourceTree = "<group>"; };
-		A068CB2EE25DBB3F973EE0D61E8A6DAA /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
-		AA3B98408C969F1EA6A68FF06B6C1673 /* CGContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGContext.swift; sourceTree = "<group>"; };
+		A01CCCDE682383AF01D31219F3802E7B /* DaVinci-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DaVinci-macOS-dummy.m"; path = "../DaVinci-macOS/DaVinci-macOS-dummy.m"; sourceTree = "<group>"; };
+		AFA6362AA017D2C89463D71FA491A612 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
 		B000ED65141A84C12757DFC13CD3E15D /* Pods-DaVinciAll-macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DaVinciAll-macOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4D86A516EEA234DF987B4E12F53480F /* Pods_DaVinciAll_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DaVinciAll_iOS.framework; path = "Pods-DaVinciAll-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62CD2432BE4D72921E5E5A2DC90FC45 /* Pods-DaVinciAll-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DaVinciAll-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B7CA94AB706A9383DB9FE03CBA61FCD8 /* PlatformHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformHelper.swift; sourceTree = "<group>"; };
-		BB7EF95564A785255E411BB2F444DB7F /* UIBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
-		BDA6B4AD754E71F2312848E90A7FF2DD /* DaVinci-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DaVinci-iOS.xcconfig"; sourceTree = "<group>"; };
+		B6B2362835D24FC036606FAF119D6EC2 /* DaVinci-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DaVinci-macOS-umbrella.h"; path = "../DaVinci-macOS/DaVinci-macOS-umbrella.h"; sourceTree = "<group>"; };
+		BBE6238E78F79C7F15963C5C9AD2BABD /* NSBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSBezierPath.swift; sourceTree = "<group>"; };
 		BEDDDD3127CDCDFEE409922BE0B7E220 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1803090296E8C4B002AC0D4DE812B89 /* Pods-DaVinciAll-macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DaVinciAll-macOS-resources.sh"; sourceTree = "<group>"; };
-		C1A2294D3A26F486F2521B626016B5CA /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
-		C1B0CDB4A6FF1C295ED65A1D6886BB68 /* DaVinci-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DaVinci-iOS-dummy.m"; sourceTree = "<group>"; };
+		C24A3C1174E5420CF41C09BBCAEA0A28 /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
 		D05AD7E340FFD9D4BE8E0F0B7F83D5E0 /* Pods-DaVinciAll-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DaVinciAll-macOS.modulemap"; sourceTree = "<group>"; };
 		D23EBE381A195D127E45493852EEDA89 /* Pods-DaVinciAll-macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DaVinciAll-macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA07E1C1CC9965730C5E00CF7D359E05 /* NSView+Snap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSView+Snap.swift"; sourceTree = "<group>"; };
+		D30DDA990729188205BD9DE9ABEE7DD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61997681CB020ECC9BAADCD5BD1C0F9 /* DaVinci.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DaVinci.swift; path = DaVinci/Core/DaVinci.swift; sourceTree = "<group>"; };
 		DB8E2D632CADFEBE217900FD1D4F3ABF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E64A9300003E2004FA833C10F41B20F5 /* Flip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Flip.swift; sourceTree = "<group>"; };
-		EDC2706DDA089BDFA55FD30D1A701DE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0FB7EFBE92A1B243B1AFA7859E2161B /* Units.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
-		F33B182B9BA764509C748D117B453DB7 /* Arrow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
-		F440621DD9D8F37DE81A08E9AE6AFAFE /* Drawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
-		F7DA5A3CCBEE1C1BD5C7604E8CF37244 /* DaVinci-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DaVinci-iOS.modulemap"; sourceTree = "<group>"; };
-		FC78788F6D1494ECE4F21973DE97AEDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../DaVinci-macOS/Info.plist"; sourceTree = "<group>"; };
+		E7742C8A4872D532A47489AC01B3C241 /* UIBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		E78AD41E59B2FD69A400BBAA2ABB141B /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		EBAC4175928616A51BC705ACEE4F5F18 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = DaVinci/Core/Path.swift; sourceTree = "<group>"; };
+		F76D6500529B0DA6F3136E1B404DE533 /* DaVinci-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DaVinci-iOS.modulemap"; sourceTree = "<group>"; };
 		FCAC07BCFB8D384A6205AF5AA07298E1 /* Pods-DaVinciAll-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DaVinciAll-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD089F24A5FCD23E5D1E8B9F2A67650E /* README.adoc */ = {isa = PBXFileReference; includeInIndex = 1; path = README.adoc; sourceTree = "<group>"; };
 		FF07B8CC7C7C79922D4E940276029066 /* Pods_DaVinciAll_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DaVinciAll_macOS.framework; path = "Pods-DaVinciAll-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFF8025605FA752BF3A13F171366B0E /* Pods-DaVinciAll-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DaVinciAll-macOS-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03AB4EE8C837888CA6A170494AE205DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBF8B8F099814B28DBFA0F12EDB627A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		301623CC7216DE6C46E727E66EEC6C0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D53D0B20F8287B7CBFFFB5B4A656224D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5883874C8E36BD3A82512DFB6C927DBF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A44A55EED47B0CDBB8FAAD08245B6B7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +170,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		075A1939F9C82344B6385AAB1740D986 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F76D6500529B0DA6F3136E1B404DE533 /* DaVinci-iOS.modulemap */,
+				36B532F75DA284983B96C16F99DC159F /* DaVinci-iOS.xcconfig */,
+				2FC7845521C685FC13960D522356343A /* DaVinci-iOS-dummy.m */,
+				2DEBC0423CA6F10DA349916613F83302 /* DaVinci-iOS-prefix.pch */,
+				7DC61ABDBC428AAD67A44E0B9AF74CA2 /* DaVinci-iOS-umbrella.h */,
+				6C7ACC46CAA5BE467ED8208265486967 /* DaVinci-macOS.modulemap */,
+				1CE2DE1E31243B9C84CD28094433CB20 /* DaVinci-macOS.xcconfig */,
+				A01CCCDE682383AF01D31219F3802E7B /* DaVinci-macOS-dummy.m */,
+				8BB8093EA6D3980625F67BA7DBFDB715 /* DaVinci-macOS-prefix.pch */,
+				B6B2362835D24FC036606FAF119D6EC2 /* DaVinci-macOS-umbrella.h */,
+				D30DDA990729188205BD9DE9ABEE7DD7 /* Info.plist */,
+				47B3632C17B12E7D61F9B59A4FC53846 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/DaVinci-iOS";
+			sourceTree = "<group>";
+		};
 		0F9FE01822E0E9CF104E9AF481BF1DE6 /* Pods-DaVinciAll-macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,22 +208,14 @@
 			path = "Target Support Files/Pods-DaVinciAll-macOS";
 			sourceTree = "<group>";
 		};
-		15C635D94C39DA59E61ADBFD497E0C28 /* Shared */ = {
+		248D14D0C5631D52233FAAF9B4A6DE04 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				851CFCCACF25F14FEF1C3DE0481C65A9 /* Aliases.swift */,
-				F33B182B9BA764509C748D117B453DB7 /* Arrow.swift */,
-				C1A2294D3A26F486F2521B626016B5CA /* Direction.swift */,
-				E64A9300003E2004FA833C10F41B20F5 /* Flip.swift */,
-				A068CB2EE25DBB3F973EE0D61E8A6DAA /* Path.swift */,
-				0143A7D31EE5F4AA6170F615218D1737 /* PathAction.swift */,
-				0866D947F31C265D69D1297792B1600C /* PathHelpers.swift */,
-				B7CA94AB706A9383DB9FE03CBA61FCD8 /* PlatformHelper.swift */,
-				F0FB7EFBE92A1B243B1AFA7859E2161B /* Units.swift */,
-				9F08117F9DB54627E3698E4A50E39BF7 /* Extensions */,
+				65416724BA7AF53CAA7FB3BF2854D5EC /* DaVinci.podspec */,
+				AFA6362AA017D2C89463D71FA491A612 /* LICENSE.md */,
+				65244653B403F615F2F596C6405F58B1 /* README.adoc */,
 			);
-			name = Shared;
-			path = DaVinci/Shared;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		34BE8B02178A92BA2FB4B7888ECF14F5 /* OS X */ = {
@@ -213,6 +224,19 @@
 				51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */,
 			);
 			name = "OS X";
+			sourceTree = "<group>";
+		};
+		3977B5831949B229BF3FA0D648270CA0 /* DaVinci */ = {
+			isa = PBXGroup;
+			children = (
+				86A760EF96276E4713DB4BCE5B3B69D3 /* Core */,
+				54CC68C0ECE2CD328F7DD41D28740AE6 /* Mac */,
+				248D14D0C5631D52233FAAF9B4A6DE04 /* Pod */,
+				075A1939F9C82344B6385AAB1740D986 /* Support Files */,
+				E774855706BB71EBDA0370E48DF266C7 /* Touch */,
+			);
+			name = DaVinci;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
@@ -224,37 +248,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4A67A2ED47243527C749DEE10FD4A462 /* Extensions */ = {
+		44998929108ADAD8555CBFB88B6A1300 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2743BABDDE9FAF95ABA9E18B8D79309D /* NSBezierPath.swift */,
-				377D55827E2875CEEE985C812A0A8FEA /* NSImage.swift */,
-				78493A15C8F23ADDA4F75A7A331FF2DE /* NSView.swift */,
-				DA07E1C1CC9965730C5E00CF7D359E05 /* NSView+Snap.swift */,
+				BBE6238E78F79C7F15963C5C9AD2BABD /* NSBezierPath.swift */,
+				5E0B5ABAC4F4D2BA64381F1EC2B25314 /* NSImage.swift */,
+				5C331597917DE33B72B636C941C86E67 /* NSView.swift */,
+				30AF43FE671D5F2D936626CC89F6199F /* NSView+Snap.swift */,
 			);
 			name = Extensions;
-			path = Extensions;
+			path = DaVinci/Mac/Extensions;
+			sourceTree = "<group>";
+		};
+		54CC68C0ECE2CD328F7DD41D28740AE6 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				534D526FBE056F0C0D11482259C069D4 /* MacDrawing.swift */,
+				44998929108ADAD8555CBFB88B6A1300 /* Extensions */,
+			);
+			name = Mac;
 			sourceTree = "<group>";
 		};
 		5A71DC99B85EF8292E6D29643EC2DCD2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6304833D74063F63FAD0DB7CECB96A83 /* DaVinci */,
+				3977B5831949B229BF3FA0D648270CA0 /* DaVinci */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6304833D74063F63FAD0DB7CECB96A83 /* DaVinci */ = {
-			isa = PBXGroup;
-			children = (
-				A32B207C13C44BF19C82C8AF02BB0AA7 /* DaVinciMac */,
-				7A7B12F308C721A0AE61D84BBEFA8C97 /* DaVinciTouch */,
-				AACE8E968C3E7EFCC1CA4B68CB945E5C /* Pod */,
-				15C635D94C39DA59E61ADBFD497E0C28 /* Shared */,
-				9AF6F783AE3578502747E026ED435255 /* Support Files */,
-			);
-			name = DaVinci;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		69760559AD95567FB6A1C9DFB43C520C /* Products */ = {
@@ -286,16 +306,6 @@
 			path = "Target Support Files/Pods-DaVinciAll-iOS";
 			sourceTree = "<group>";
 		};
-		7A7B12F308C721A0AE61D84BBEFA8C97 /* DaVinciTouch */ = {
-			isa = PBXGroup;
-			children = (
-				F440621DD9D8F37DE81A08E9AE6AFAFE /* Drawing.swift */,
-				C8AC549AF1F2A58EB66543EC372320E1 /* Extensions */,
-			);
-			name = DaVinciTouch;
-			path = DaVinci/DaVinciTouch;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +317,20 @@
 			);
 			sourceTree = "<group>";
 		};
+		86A760EF96276E4713DB4BCE5B3B69D3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				30EED047915DB814EEC0F12A2AD74490 /* Arrow.swift */,
+				D61997681CB020ECC9BAADCD5BD1C0F9 /* DaVinci.swift */,
+				943DF93FA52A158AC1B7084369C8E120 /* Defines.swift */,
+				EBAC4175928616A51BC705ACEE4F5F18 /* Path.swift */,
+				78C4E3D2C96D29EC447A02060C6EFBAC /* PathAction.swift */,
+				68F8ABED8AE6A8D502C9685BA32CB490 /* Platform.swift */,
+				EDCCEAB292D9DBEE064571FBECC321D1 /* Extensions */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		8C918DD0468B798DBE7EEDD4C9D4170B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,65 +339,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9AF6F783AE3578502747E026ED435255 /* Support Files */ = {
+		A6C55613A0299484067F91535CFF4740 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F7DA5A3CCBEE1C1BD5C7604E8CF37244 /* DaVinci-iOS.modulemap */,
-				BDA6B4AD754E71F2312848E90A7FF2DD /* DaVinci-iOS.xcconfig */,
-				C1B0CDB4A6FF1C295ED65A1D6886BB68 /* DaVinci-iOS-dummy.m */,
-				15D53EB209954D5AA2D7A2CFE262D63E /* DaVinci-iOS-prefix.pch */,
-				4EEB44EDE08EE3AC3EC5699B7B6F740C /* DaVinci-iOS-umbrella.h */,
-				2AEB3E5D49E4EE5963B5B8F945756594 /* DaVinci-macOS.modulemap */,
-				86EE607C3B72641F16239512D46492B8 /* DaVinci-macOS.xcconfig */,
-				673A6E753AA09B5D5D5CB391CEAFE0A9 /* DaVinci-macOS-dummy.m */,
-				4CDED2BC05F4B5D53375CB8BA8DB48F3 /* DaVinci-macOS-prefix.pch */,
-				26492D7999CCD8545B22EBC0C98D5471 /* DaVinci-macOS-umbrella.h */,
-				EDC2706DDA089BDFA55FD30D1A701DE8 /* Info.plist */,
-				FC78788F6D1494ECE4F21973DE97AEDA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/DaVinci-iOS";
-			sourceTree = "<group>";
-		};
-		9F08117F9DB54627E3698E4A50E39BF7 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				AA3B98408C969F1EA6A68FF06B6C1673 /* CGContext.swift */,
-				3BB6248878C21AA7CA31318D5F752012 /* CGPoint.swift */,
-				49B5FFD4EA77F89F3D3ED31FF44AE3F3 /* CGRect.swift */,
+				E7742C8A4872D532A47489AC01B3C241 /* UIBezierPath.swift */,
+				80895379106F0F1A015605339DE037A9 /* UIImage.swift */,
 			);
 			name = Extensions;
-			path = Extensions;
+			path = DaVinci/Touch/Extensions;
 			sourceTree = "<group>";
 		};
-		A32B207C13C44BF19C82C8AF02BB0AA7 /* DaVinciMac */ = {
+		E774855706BB71EBDA0370E48DF266C7 /* Touch */ = {
 			isa = PBXGroup;
 			children = (
-				84BC75EC4B8FCDBF51581550418267E5 /* Drawing.swift */,
-				4A67A2ED47243527C749DEE10FD4A462 /* Extensions */,
+				8908B7C492D922A072EAC62E43846F6E /* TouchDrawing.swift */,
+				A6C55613A0299484067F91535CFF4740 /* Extensions */,
 			);
-			name = DaVinciMac;
-			path = DaVinci/DaVinciMac;
+			name = Touch;
 			sourceTree = "<group>";
 		};
-		AACE8E968C3E7EFCC1CA4B68CB945E5C /* Pod */ = {
+		EDCCEAB292D9DBEE064571FBECC321D1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				05D0B66665B2F542C79C7EB7CE7AC2A5 /* DaVinci.podspec */,
-				3059203FB3ABDFB1681DC648E9853738 /* LICENSE.md */,
-				FD089F24A5FCD23E5D1E8B9F2A67650E /* README.adoc */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C8AC549AF1F2A58EB66543EC372320E1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BB7EF95564A785255E411BB2F444DB7F /* UIBezierPath.swift */,
-				78688CCFB96ADFB08570076E9B65A824 /* UIImage.swift */,
+				464EDA2C3DB4338F53990D62CD4B6E69 /* CGContext.swift */,
+				C24A3C1174E5420CF41C09BBCAEA0A28 /* CGPoint.swift */,
+				E78AD41E59B2FD69A400BBAA2ABB141B /* CGRect.swift */,
 			);
 			name = Extensions;
-			path = Extensions;
+			path = DaVinci/Core/Extensions;
 			sourceTree = "<group>";
 		};
 		FA9E9066B44E495D33FEED0EF03E5FA6 /* Targets Support Files */ = {
@@ -404,11 +397,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A881670C21C1A41A809CF500BB7C9F53 /* Headers */ = {
+		AF3504F8097B908500597FFEF95E5DC4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA39B4924ED066DEA7B095D3BA5AB26D /* DaVinci-iOS-umbrella.h in Headers */,
+				3C0F23522B6056FFDE1123DF9BAB4853 /* DaVinci-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,28 +434,11 @@
 			productReference = B4D86A516EEA234DF987B4E12F53480F /* Pods_DaVinciAll_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3E563491A4726D0D0C7F10714650880C /* DaVinci-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F12F356432CDD61F156461DF22E44FD /* Build configuration list for PBXNativeTarget "DaVinci-iOS" */;
-			buildPhases = (
-				A5BCFF83D9E3719235F71BF92AA0E8A6 /* Sources */,
-				5883874C8E36BD3A82512DFB6C927DBF /* Frameworks */,
-				A881670C21C1A41A809CF500BB7C9F53 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DaVinci-iOS";
-			productName = "DaVinci-iOS";
-			productReference = 8227FAF19A5B76F5A4CA7488C86D7833 /* DaVinci.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		57B6BCF3B7F0FE9299ACC348BEF9DF95 /* DaVinci-macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1EAF5AA618428ED1688518286D51A7B /* Build configuration list for PBXNativeTarget "DaVinci-macOS" */;
 			buildPhases = (
-				31CF51814848900D2E877661A4246518 /* Sources */,
+				197A1EC2E678138DEC318DD58023916A /* Sources */,
 				E34AB0B6D161587BA71878E88286406F /* Frameworks */,
 				EB19695D6C120ED0C0D972487FABC1C0 /* Headers */,
 			);
@@ -473,6 +449,23 @@
 			name = "DaVinci-macOS";
 			productName = "DaVinci-macOS";
 			productReference = 69AD21F94E30772422E2549D16E44D2F /* DaVinci.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C15B09BBD9FCF0CDA32CC7F5E96DD5F6 /* DaVinci-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259014CE53C1338F94C25C5880542533 /* Build configuration list for PBXNativeTarget "DaVinci-iOS" */;
+			buildPhases = (
+				6E4372F702271854B9071F9C93DEEA85 /* Sources */,
+				03AB4EE8C837888CA6A170494AE205DC /* Frameworks */,
+				AF3504F8097B908500597FFEF95E5DC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DaVinci-iOS";
+			productName = "DaVinci-iOS";
+			productReference = 8227FAF19A5B76F5A4CA7488C86D7833 /* DaVinci.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C4F1E5369E422A923611F5AB6C75C5EB /* Pods-DaVinciAll-macOS */ = {
@@ -514,7 +507,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E563491A4726D0D0C7F10714650880C /* DaVinci-iOS */,
+				C15B09BBD9FCF0CDA32CC7F5E96DD5F6 /* DaVinci-iOS */,
 				57B6BCF3B7F0FE9299ACC348BEF9DF95 /* DaVinci-macOS */,
 				145411D0EF031ED3DD407F8AAC7B9756 /* Pods-DaVinciAll-iOS */,
 				C4F1E5369E422A923611F5AB6C75C5EB /* Pods-DaVinciAll-macOS */,
@@ -523,28 +516,53 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31CF51814848900D2E877661A4246518 /* Sources */ = {
+		197A1EC2E678138DEC318DD58023916A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3781862A7331A034C4C29A9CD98B3B /* Aliases.swift in Sources */,
-				8A87EBCEDC70ACE6C7C56CFB3C36EBEB /* Arrow.swift in Sources */,
-				B2D8E67A119D0A11CEEF60A76BC1B1C7 /* CGContext.swift in Sources */,
-				788F3557AFABF17F4C4FF526ADFB58AE /* CGPoint.swift in Sources */,
-				F00B09BA22E3C949924E9635513D1E66 /* CGRect.swift in Sources */,
-				098955182A69F3F14830414CAA2FED39 /* DaVinci-macOS-dummy.m in Sources */,
-				3C3E1727E8E2E869FAB68FB223592437 /* Direction.swift in Sources */,
-				5EA2F0AD6B9287737C92D334F43EB35E /* Drawing.swift in Sources */,
-				8F55A4E6074C882A0ABF638C5D8E6A17 /* Flip.swift in Sources */,
-				A22EC5137E2D32B0A5660243911BCBC6 /* NSBezierPath.swift in Sources */,
-				799D0355528E9F24FA51466CF3683B46 /* NSImage.swift in Sources */,
-				29A6D4A398E118B64995C41251FB4482 /* NSView+Snap.swift in Sources */,
-				53096456AC3F71CF2A8B3436B82FDB68 /* NSView.swift in Sources */,
-				2987BDEF184AE923C924B5D7C6DD69B5 /* Path.swift in Sources */,
-				40075BC50837254D7739B116004E5FA5 /* PathAction.swift in Sources */,
-				D2E1A50161EA651930CCD97DCB3C9C02 /* PathHelpers.swift in Sources */,
-				ACBC83DEAC0221D80B402A3E1B34B90F /* PlatformHelper.swift in Sources */,
-				66C8DF5DFFD89CFF78ED3DFCB7F09609 /* Units.swift in Sources */,
+				51108AD254D340BBBE3883AA89B13357 /* Arrow.swift in Sources */,
+				12F4927AF868D30DC6BD530A3FAB4CB1 /* CGContext.swift in Sources */,
+				E201441A3523A0058ABB1715A59BB13B /* CGPoint.swift in Sources */,
+				8B883ACD50277B99E869CB5EF033D288 /* CGRect.swift in Sources */,
+				FD5A8DB687CECD84E0EE6424596AB41D /* DaVinci-macOS-dummy.m in Sources */,
+				49473751F5F3CB89675C1448FDE5BDCF /* DaVinci.swift in Sources */,
+				A90B967289056B5607B52D062BFE7836 /* Defines.swift in Sources */,
+				6C3DB653259FB4FB8BD91B0C6C593ACF /* MacDrawing.swift in Sources */,
+				E7100DD16AAA0DB44D19D4E4F6953A82 /* NSBezierPath.swift in Sources */,
+				DABACEE16F8A9AEC10C8DB14A75F6654 /* NSImage.swift in Sources */,
+				F6648F29071A45188A6A25E92BBBC7EC /* NSView+Snap.swift in Sources */,
+				815F1FE6E633C77E0DA6857280ABBD5C /* NSView.swift in Sources */,
+				14C86234FA3353FDAB4968CAD1201654 /* Path.swift in Sources */,
+				9B748385B80C2123E04012E5F3A445EF /* PathAction.swift in Sources */,
+				5BEDB78526663B2A82293C2993D7D202 /* Platform.swift in Sources */,
+				19E769A93C803585E141CE0CC9D98A28 /* TouchDrawing.swift in Sources */,
+				1686DAAF727CA6419688D2388913E1F7 /* UIBezierPath.swift in Sources */,
+				BE79E09954D7DA21F01A434A8D97D186 /* UIImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4372F702271854B9071F9C93DEEA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B5BF5F365194AF1691A8D6D9A11804 /* Arrow.swift in Sources */,
+				1D40D0EAFA5CC5300A8D847367E2F464 /* CGContext.swift in Sources */,
+				0ACCF7E00AD49D5C0388E54BD7584C04 /* CGPoint.swift in Sources */,
+				5108F2BB3A23CD2E9D4393C919DAB6B2 /* CGRect.swift in Sources */,
+				C1B1C6310B106D49E31BE691CACB8CB9 /* DaVinci-iOS-dummy.m in Sources */,
+				2E64C0A960B20C9C85024156700300E6 /* DaVinci.swift in Sources */,
+				D8037FF3E2580046C6A26A8429472325 /* Defines.swift in Sources */,
+				EB2825DB8E796E92FD829B25039C1300 /* MacDrawing.swift in Sources */,
+				2241877CEBB7DD229BBC4A6432AF5DCA /* NSBezierPath.swift in Sources */,
+				2AD715E4B17DCD8C52DE29E7B1034062 /* NSImage.swift in Sources */,
+				61B0B277E802A499226CB81C9FF3AF57 /* NSView+Snap.swift in Sources */,
+				5C15429B8340485245846FE01AD71140 /* NSView.swift in Sources */,
+				73EF9B636476C33785F65B7FC2E593D3 /* Path.swift in Sources */,
+				990F67F68378F0F6AD043FE76C4BDDB6 /* PathAction.swift in Sources */,
+				D1A52DE1038EAB9AB7C994D2B61A4FCF /* Platform.swift in Sources */,
+				FCDD613970CFC659B8B265B3F8596DE8 /* TouchDrawing.swift in Sources */,
+				F698C7F1AEC90F4BC67FD05AEA53C73A /* UIBezierPath.swift in Sources */,
+				1034B8DB8AE57C6D5F050F5B2AA61DA3 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,36 +582,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5BCFF83D9E3719235F71BF92AA0E8A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3F3F5A2491EBB12890958E81A82828A /* Aliases.swift in Sources */,
-				E2CAE998466125D4846201C4A409E1A7 /* Arrow.swift in Sources */,
-				565046F025F5A9061D5155BFAEC12C5D /* CGContext.swift in Sources */,
-				64E82D51C892A5704BC8FBF3A82F1A10 /* CGPoint.swift in Sources */,
-				F4EDB075B290B35F334D21803D774C65 /* CGRect.swift in Sources */,
-				8B5346EBE8DF83669BBD33AA91661FA9 /* DaVinci-iOS-dummy.m in Sources */,
-				FD738DE786E39964318E60C9B576E4EA /* Direction.swift in Sources */,
-				B8BFB1176E828CF526D39AF0049B8B09 /* Drawing.swift in Sources */,
-				A8B001422800BCBD9B0EEBCFCCDAF5C5 /* Flip.swift in Sources */,
-				7DE57D89D5203038B2C85E3032766392 /* Path.swift in Sources */,
-				EB4A74F6E74F2B3BEBABCD9963C8705E /* PathAction.swift in Sources */,
-				147484F41B274AC51BC9ECC034D8E0D4 /* PathHelpers.swift in Sources */,
-				40D61C5A47FBD776402AB3EEA304ACFE /* PlatformHelper.swift in Sources */,
-				9ECB78C2AE8FD4ACD332CE6F9887E11F /* UIBezierPath.swift in Sources */,
-				3AA100847B69767995F5DAD5372F0B43 /* UIImage.swift in Sources */,
-				30F245E8E967C83DC968AD17E51645EA /* Units.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		03A012396FC53AD6C3C2A0A360046A82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DaVinci-iOS";
-			target = 3E563491A4726D0D0C7F10714650880C /* DaVinci-iOS */;
+			target = C15B09BBD9FCF0CDA32CC7F5E96DD5F6 /* DaVinci-iOS */;
 			targetProxy = 86B24E711D6EB75429B400C190A3D856 /* PBXContainerItemProxy */;
 		};
 		FF03CD30D48CC9B945617399AEF874FF /* PBXTargetDependency */ = {
@@ -605,40 +600,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E3FCA2E4DBD26B82352AFED6EAB4B55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDA6B4AD754E71F2312848E90A7FF2DD /* DaVinci-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DaVinci-iOS/DaVinci-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DaVinci-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DaVinci-iOS/DaVinci-iOS.modulemap";
-				PRODUCT_MODULE_NAME = DaVinci;
-				PRODUCT_NAME = DaVinci;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		32DD6BE6EEEAF883D3B06AEC7ACCAF4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -736,7 +697,7 @@
 		};
 		55DC2AC0DDF8EFBDE697FC67D2839ADA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EE607C3B72641F16239512D46492B8 /* DaVinci-macOS.xcconfig */;
+			baseConfigurationReference = 1CE2DE1E31243B9C84CD28094433CB20 /* DaVinci-macOS.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -770,7 +731,7 @@
 		};
 		617BED283798AC75B90B3B916DE3C94E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86EE607C3B72641F16239512D46492B8 /* DaVinci-macOS.xcconfig */;
+			baseConfigurationReference = 1CE2DE1E31243B9C84CD28094433CB20 /* DaVinci-macOS.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -866,6 +827,40 @@
 			};
 			name = Debug;
 		};
+		67004585F2540B64E5C66CCBEBE82349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B532F75DA284983B96C16F99DC159F /* DaVinci-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DaVinci-iOS/DaVinci-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DaVinci-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DaVinci-iOS/DaVinci-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DaVinci;
+				PRODUCT_NAME = DaVinci;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8265CE5C8E0B92EBB93BC2A49274A31C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02DD1F4581040E47DE07314E488F31A2 /* Pods-DaVinciAll-iOS.release.xcconfig */;
@@ -901,39 +896,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		91C0A5ED011E7E8F38CF678AC7B28B9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDA6B4AD754E71F2312848E90A7FF2DD /* DaVinci-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DaVinci-iOS/DaVinci-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DaVinci-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DaVinci-iOS/DaVinci-iOS.modulemap";
-				PRODUCT_MODULE_NAME = DaVinci;
-				PRODUCT_NAME = DaVinci;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9C35295F64418578B8F8DD4847CC14E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1008,14 +970,47 @@
 			};
 			name = Debug;
 		};
+		F9A119E3D079C12AF2469ECBE57780AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B532F75DA284983B96C16F99DC159F /* DaVinci-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DaVinci-iOS/DaVinci-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DaVinci-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DaVinci-iOS/DaVinci-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DaVinci;
+				PRODUCT_NAME = DaVinci;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F12F356432CDD61F156461DF22E44FD /* Build configuration list for PBXNativeTarget "DaVinci-iOS" */ = {
+		259014CE53C1338F94C25C5880542533 /* Build configuration list for PBXNativeTarget "DaVinci-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91C0A5ED011E7E8F38CF678AC7B28B9D /* Debug */,
-				1E3FCA2E4DBD26B82352AFED6EAB4B55 /* Release */,
+				F9A119E3D079C12AF2469ECBE57780AD /* Debug */,
+				67004585F2540B64E5C66CCBEBE82349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

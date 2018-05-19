@@ -1,5 +1,13 @@
 PODS:
-  - DaVinci (1.0.2)
+  - DaVinci (2.0.0):
+    - DaVinci/Core (= 2.0.0)
+    - DaVinci/Mac (= 2.0.0)
+    - DaVinci/Touch (= 2.0.0)
+  - DaVinci/Core (2.0.0)
+  - DaVinci/Mac (2.0.0):
+    - DaVinci/Core
+  - DaVinci/Touch (2.0.0):
+    - DaVinci/Core
 
 DEPENDENCIES:
   - DaVinci (from `../`)
@@ -9,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DaVinci: cea6fb124433ae24574115ac67ecc2755c633c9f
+  DaVinci: d494b887e2d94fedd9b6197443bcc0909682efd6
 
 PODFILE CHECKSUM: b412ec5d712ccb5cbde020d06f93b6eadb4e300b
 

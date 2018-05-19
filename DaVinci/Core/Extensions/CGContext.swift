@@ -19,9 +19,9 @@ public extension CGContext {
     /// - parameter pivot: A pivot point in the user space coordinates around which the context will rotate.
     /// - parameter angle: The angle, in degrees, by which to rotate the coordinate space of the context.
     public func rotate(around pivot: CGPoint, by angle: Double) {
-        self.translateBy(x: pivot.x, y: pivot.y);
-        self.rotate(by: CGFloat(degreesToRadians(angle)));
-        self.translateBy(x: -pivot.x, y: -pivot.y);
+        self.translateBy(x: pivot.x, y: pivot.y)
+        self.rotate(by: CGFloat(angle.degreesToRadians()))
+        self.translateBy(x: -pivot.x, y: -pivot.y)
     }
     
     /// Rotates the context clockwise, regardless of the platform, by a given angle around a pivot point.
@@ -47,18 +47,18 @@ public extension CGContext {
     
     /// Add `path' to the path of context. The points in `path' are transformed by the CTM of context before they are added.
     ///
-    /// - Parameter path: DaVinciPath
-    public func addPath(_ path: DaVinciPath) {
+    /// - Parameter path: DaVinci.Path
+    public func addPath(_ path: DaVinci.Path) {
         self.addPath(path.cgPath)
     }
     
-    public func fill(path: DaVinciPath, color: CGColor) {
+    public func fill(path: DaVinci.Path, color: CGColor) {
         self.setFillColor(color)
         self.addPath(path)
         self.fillPath()
     }
     
-    public func stroke(path: DaVinciPath, color: CGColor) {
+    public func stroke(path: DaVinci.Path, color: CGColor) {
         self.setStrokeColor(color)
         self.addPath(path)
         self.strokePath()

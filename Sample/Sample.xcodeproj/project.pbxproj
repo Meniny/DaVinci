@@ -48,11 +48,11 @@
 		5C81917E20135018005311C3 /* DaVinci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DaVinci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8191802013501C005311C3 /* DaVinci.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DaVinci.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C819181201350CD005311C3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
-		5C819182201350CE005311C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C819183201350CE005311C3 /* DaVinci.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = DaVinci.podspec; path = ../DaVinci.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C819184201352FE005311C3 /* DaVinciDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaVinciDraw.swift; sourceTree = "<group>"; };
 		5C81918720135387005311C3 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		5C819189201353C5005311C3 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5C9D542920B01C95004BC792 /* README.adoc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.adoc; path = ../README.adoc; sourceTree = "<group>"; };
 		70D8F31E0CAFA5074693C9F0 /* Pods-DaVinciAll-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaVinciAll-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaVinciAll-iOS/Pods-DaVinciAll-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EDC66DC4634CAC1107592A86 /* Pods-DaVinciAll-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaVinciAll-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaVinciAll-macOS/Pods-DaVinciAll-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +84,7 @@
 			children = (
 				5C819183201350CE005311C3 /* DaVinci.podspec */,
 				5C819181201350CD005311C3 /* Package.swift */,
-				5C819182201350CE005311C3 /* README.md */,
+				5C9D542920B01C95004BC792 /* README.adoc */,
 				5C819184201352FE005311C3 /* DaVinciDraw.swift */,
 				5C81915820134F6C005311C3 /* iOS */,
 				5C81916E20134F78005311C3 /* macOS */,

@@ -1,4 +1,5 @@
 
+#if os(macOS)
 import Quartz
 
 public extension NSBezierPath {
@@ -52,3 +53,4 @@ public extension NSBezierPath {
     }
 }
 
+#endif
